@@ -1,4 +1,5 @@
 def string_to_int(s):
+    temp = str()
     try:
         string_to_number = int(eval(str(s)))
 		if type(temp) == int:
