@@ -1,9 +1,8 @@
-def string_to_int(s):
-    temp = str()
-    try:
-        string_to_number = int(eval(str(s)))
-		if type(temp) == int:
-            return temp
-    
-val = string_to_int('10')
-print(val)
+favorite_lenguages = {
+    'jen' : 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+}
+for name,lenguage in favorite_lenguages.items():
+    print(f"{name.title()}'s favorite_lenguages is {lenguage.title()}")
